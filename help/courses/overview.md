@@ -1,6 +1,6 @@
 ---
-title: 教學影片 [!DNL Adobe Experience Manager Guides]
-description: 觀看相關教學課程影片 [!DNL Adobe Experience Manager Guides]、AEM XML附加元件、AEM XML外掛程式、AEM DoX和AEM Dox。
+title: ' [!DNL Adobe Experience Manager Guides]的教學課程影片'
+description: 觀看有關 [!DNL Adobe Experience Manager Guides]、AEM XML附加元件、AEM XML外掛程式、AEM DoX和AEM Dox的影片教學課程。
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
 source-git-commit: 0c2a131c2e8125590e4b624d7fe16ebd1fbbce16
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 5%
 
 # AEM Guides 的教學課程
 
-請檢視此空間中的視訊課程： [!DNL Adobe Experience Manager Guides].
+請檢視此分享空間以取得[!DNL Adobe Experience Manager Guides]的視訊課程。
 
 >[!NOTE]
 > 
@@ -19,14 +19,14 @@ ht-degree: 5%
 
 ## 新增功能
 
-* **[[!DNL AEM Guides] 製作課程](course-3/overview.md)**
+* **[[!DNL AEM Guides] 編寫課程](course-3/overview.md)**
 
-  *進階使用手冊： [!DNL AEM Guides] 編輯者*
+  *[!DNL AEM Guides]編輯器的進階使用手冊*
 
-* **[[!DNL AEM Guides] 快速入門課程](course-1/overview.md)**
+* **[[!DNL AEM Guides] 入門課程](course-1/overview.md)**
 
-  *瞭解如何建立、組織、編寫和發佈內容 [!DNL Adobe Experience Manager Guides].*
+  *瞭解如何使用[!DNL Adobe Experience Manager Guides]建立、組織、製作及發佈內容。*
 
-* **[輸出產生方式 [!DNL AEM Guides]](course-2/overview.md)**
+* 使用&#x200B; [!DNL AEM Guides]](course-2/overview.md)**產生**[&#x200B;輸出
 
-  *瞭解如何使用產生輸出 [!DNL Adobe Experience Manager Guides]. 瞭解輸出產生的各種可用功能 — 報告、基線、條件、疑難排解、大量發佈和啟用。*
+  *瞭解如何使用[!DNL Adobe Experience Manager Guides]產生輸出。 瞭解輸出產生的各種可用功能 — 報告、基線、條件、疑難排解、大量發佈和啟用。*

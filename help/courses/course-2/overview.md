@@ -1,6 +1,6 @@
 ---
-title: 輸出產生方式 [!DNL AEM Guides]
-description: 輸出產生方式 [!DNL Adobe Experience Manager Guides]
+title: 使用 [!DNL AEM Guides]產生輸出
+description: 使用 [!DNL Adobe Experience Manager Guides]產生輸出
 exl-id: 3786dc47-e006-4059-ba8f-4dc66dbbcf71
 source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 0%
 - [瞭解地圖儀表板](./introduction-to-the-map-dashboard.md)
 - [使用報表](./working-with-reports.md)
 - [使用基準線建立與發佈](./creating-and-publishing-with-baselines.md)
-- [使用條件發佈](./publishing-with-conditions.md)
+- [具有條件的Publish](./publishing-with-conditions.md)
 - [瞭解輸出預設集](./output-presets.md)
 - [疑難排解發佈錯誤](./troubleshooting-publishing-errors.md)
 - [大量發佈](./bulk-publishing.md)

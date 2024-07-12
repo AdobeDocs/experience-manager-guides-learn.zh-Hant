@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # 檔案已移動
 
-「教學課程」區段中的檔案現在位於 `experience-manager-guides.en` 存放庫：
+「教學課程」區段中的檔案現在位於`experience-manager-guides.en`存放庫中：
 
 <https://git.corp.adobe.com/AdobeDocs/experience-manager-guides.en>
 

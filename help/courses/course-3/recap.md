@@ -1,15 +1,15 @@
 ---
 title: 訓練系列結論
-description: AEM Guides培訓課程概述與回顧
+description: AEM Guides培訓概述
 exl-id: 29fe5e78-8787-4f09-a969-60f68e376976
 source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 8%
+ht-degree: 4%
 
 ---
 
-# 評論
+# 檢閱
 
 >[!VIDEO](https://video.tv.adobe.com/v/342771?quality=12&learn=on)
 
@@ -29,11 +29,11 @@ ht-degree: 8%
 
 - [內容重複使用](content-reuse.md)
 
-- [金鑰](keys.md)
+- [鍵](keys.md)
 
 - [字彙表](glossary.md)
 
-- [拼字檢查及尋找和取代](spell-check.md)
+- [拼字檢查並尋找及取代](spell-check.md)
 
 - [追蹤變更](track-changes.md)
 
@@ -41,4 +41,4 @@ ht-degree: 8%
 
 - [地圖和書籤](maps-and-bookmaps.md)
 
-- [簡單的內容建立工作流程](simple-content-creation-workflows.md)
+- [簡單內容建立工作流程](simple-content-creation-workflows.md)
