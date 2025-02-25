@@ -2,9 +2,9 @@
 title: AEM Guides編輯器設定
 description: 為AEM Guides設定編輯器
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 988c288fc03e509a3a55e87b1e1ecd8fd07d1c92
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 您現在可以在文字編輯器中開啟及修改內容。 _AEM Guides安裝與設定_&#x200B;指南包含如何移除、自訂或新增功能到UI設定的範例。
 
-## 上傳修改過的XML編輯器UI設定
+## 上傳修改過的XML編輯器設定
 
 自訂UI設定後，您可以上傳它。 請注意，範例設定檔&#x200B;_ui-config-restricted-editor.json_&#x200B;已隨附本課程的一組支援主題。
 
 1. 在資料夾設定檔中，按一下&#x200B;[!UICONTROL **XML編輯器組態**]&#x200B;索引標籤。
 
-1. 在XML編輯器UI組態下，按一下&#x200B;[!UICONTROL **上傳**]。
+1. 在XML編輯器設定下，按一下&#x200B;[!UICONTROL **上傳**]。
 
    ![上傳](images/lesson-4/upload.png)
 

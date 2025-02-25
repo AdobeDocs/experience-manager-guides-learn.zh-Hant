@@ -2,15 +2,15 @@
 user-guide-title: Adobe Experience Manager Guides 教學課程
 user-guide-description: Adobe Experience Manager Guides 的影片系列。
 breadcrumb-title: AEM Guides 的教學課程
-source-git-commit: b78894069aa2b1279365d716332b5f6e2e3be865
+source-git-commit: 2f11a068afaa2941e437ee8b0a735a8c7e69784c
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '130'
 ht-degree: 16%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides]的Tutorials {#videos}
+# [!DNL Adobe Experience Manager Guides]的教學課程 {#videos}
 
 + [[!DNL AEM Guides]影片](overview.md)
 + 開始使用[!DNL AEM Guides] {#getting-started}
@@ -22,7 +22,7 @@ ht-degree: 16%
    + [使用清單](./course-1/working-with-lists.md)
    + [版本內容](./course-1/versioning-content.md)
    + [建立地圖](./course-1/creating-a-map.md)
-   + [Publish預設輸出](./course-1/publishing-default-output.md)
+   + [發佈預設輸出](./course-1/publishing-default-output.md)
    + [重述](./course-1/recap.md)
 + 產生[!DNL AEM Guides] {#output-generation}的輸出
    + [輸出產生概觀](./course-2/overview.md)
@@ -38,6 +38,7 @@ ht-degree: 16%
    + [製作概述](./course-3/overview.md)
    + [使用者偏好設定、編輯器設定和編輯器工具列](./course-3/user-settings-preferences-toolbars.md)
    + [資料夾設定檔](./course-3/folder-profiles.md)
+   + [轉換UI設定](./course-3/conver-ui-config.md)
    + [編輯器設定](./course-3/editor-configuration.md)
    + [面板](./course-3/panels.md)
    + [大綱檢視](./course-3/outline-view.md)
