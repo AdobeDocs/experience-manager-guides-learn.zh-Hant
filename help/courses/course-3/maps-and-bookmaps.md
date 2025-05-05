@@ -26,7 +26,7 @@ AEM Guides提供兩個現成可用的地圖範本 — DITA map和bookmap。 您�
 
 1. 按一下&#x200B;[!UICONTROL **建立> DITA Map**]。
 
-1. 在Blueprint頁面上，選取您要使用的對應範本型別，然後按一下[下一步][!UICONTROL ****]。
+1. 在Blueprint頁面上，選取您要使用的對應範本型別，然後按一下[下一步][!UICONTROL **&#x200B;**]。
 
 1. 在[內容]頁面上，輸入地圖的&#x200B;**標題**&#x200B;和&#x200B;**名稱**。
 

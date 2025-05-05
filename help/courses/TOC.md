@@ -24,7 +24,7 @@ ht-degree: 16%
    + [建立地圖](./course-1/creating-a-map.md)
    + [發佈預設輸出](./course-1/publishing-default-output.md)
    + [重述](./course-1/recap.md)
-+ 產生[!DNL AEM Guides] {#output-generation}的輸出
++ 產生[!DNL AEM Guides]的輸出 {#output-generation}
    + [輸出產生概觀](./course-2/overview.md)
    + [瞭解地圖控制面板](./course-2/introduction-to-the-map-dashboard.md)
    + [使用報表](./course-2/working-with-reports.md)
@@ -34,7 +34,7 @@ ht-degree: 16%
    + [疑難排解發佈錯誤](./course-2/troubleshooting-publishing-errors.md)
    + [大量發佈](./course-2/bulk-publishing.md)
    + [重述](./course-2/recap.md)
-+ 使用[!DNL AEM Guides]編輯器{#advanced-user-guide}編寫
++ 使用[!DNL AEM Guides]編輯器編寫{#advanced-user-guide}
    + [製作概述](./course-3/overview.md)
    + [使用者偏好設定、編輯器設定和編輯器工具列](./course-3/user-settings-preferences-toolbars.md)
    + [資料夾設定檔](./course-3/folder-profiles.md)

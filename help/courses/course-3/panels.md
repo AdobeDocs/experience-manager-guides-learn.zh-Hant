@@ -222,7 +222,7 @@ AEM Guides Web Editor分為多個區段，包括主工具列、次要工具列�
 
 1. 在編輯器中開啟主題。
 
-1. 按一下右側面板上的[!UICONTROL  **檔案屬性**]&#x200B;圖示。
+1. 按一下右側面板上的[!UICONTROL &#x200B; **檔案屬性**]&#x200B;圖示。
 
    ![檔案屬性圖示](images/lesson-5/file-properties-icon.png)
 

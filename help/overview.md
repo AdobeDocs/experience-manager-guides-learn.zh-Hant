@@ -35,7 +35,7 @@ ht-degree: 1%
 
   *瞭解如何使用Experience Manager Guides中的原生網頁編輯器製作內容。 取得對使用者偏好設定、編輯器設定、設定、工具列等的完整瞭解。*
 
-* 使用&#x200B; [!DNL AEM Guides]](course-2/overview.md)**產生**[&#x200B;輸出
+* 使用&#x200B; [!DNL AEM Guides][&#128279;](course-2/overview.md)**產生**&#x200B;輸出
 
   *瞭解如何使用[!DNL Adobe Experience Manager Guides]產生輸出。 瞭解輸出產生的各種可用功能 — 報告、基線、條件、疑難排解、大量發佈和啟用。*
 
