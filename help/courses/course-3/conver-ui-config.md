@@ -1,9 +1,10 @@
 ---
 title: AEM Guides編輯器設定
 description: 針對新的AEM Guides編輯器自訂JSON設定和轉換UI設定。
-source-git-commit: ec6f5685d690e53e5c6eb29d6b61436833f62c68
+exl-id: bb047962-0e2e-4b3a-90c1-052a2a449628
+source-git-commit: efdb02d955e223783fc1904eda8d41942c1c9ccf
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,9 @@ ht-degree: 0%
 
 從舊版UI移轉至新AEM Guides UI時，**ui_config**&#x200B;的更新必須轉換為更靈活且模組化的UI設定。 此架構可協助順暢地採用變更至&#x200B;**editor_toolbar**&#x200B;和[其他工具列](/help/courses/course-3/conver-ui-config.md#editing-json-for-different-screens)。 此程式也支援修改應用程式中的其他檢視和Widget。
 
+>[!NOTE]
+>
+>套用至特定按鈕的自訂功能在轉換為擴充功能框架期間可能會遇到問題。 如果發生這種情況，您可以參照此頁面提出支援服務單，以提示支援和解決問題。
 
 ## 為不同畫面編輯JSON
 
@@ -38,24 +42,34 @@ JSON檔案可新增至各種畫面和Widget的「XML編輯器UI設定」區段�
 
 每個JSON都遵循一致結構：
 
-1. **id**：指定要自訂元件的Widget。
-1. **targetEditor**：使用編輯器和模式屬性定義何時顯示或隱藏按鈕：
+1. `id`：指定要自訂元件的Widget。
+1. `targetEditor`：使用編輯器和模式屬性定義何時顯示或隱藏按鈕：
 
-   目前系統中有這些&#x200B;**編輯器**&#x200B;和&#x200B;**模式**。
+   `targetEditor`支援下列選項：
 
-   **編輯器**： ditamap， bookmap， subjectScheme， xml， css，翻譯，預設集， pdf_preset
+   - `mode`
+   - `displayMode`
+   - `editor`
+   - `documentType`
+   - `documentSubType`
+   - `flag`
 
-   **模式**：作者，來源，預覽， toc，分割
+   如需詳細資訊，請檢視[瞭解targetEditor屬性](#understanding-targeteditor-properties)
 
-   （附註：目錄模式適用於版面檢視。）
+   >[!NOTE]
+   >
+   > 2506版的Experience Manager Guides引進了新屬性： `displayMode`、`documentType`、`documentSubType`和`flag`。 這些屬性僅從2506版開始受支援。 同樣地，從mode屬性中的`toc`變更為`layout`也會從此版本開始套用。
+   >
+   > 新欄位`documentType`現在可與現有`editor`欄位一併使用。  這兩個欄位均受支援，並可視需要使用。 不過，建議使用`documentType`以確保不同實作的一致性，尤其是在使用`documentSubType`屬性時。 `editor`欄位仍然有效，以支援回溯相容性和現有的整合。
 
-1. **target**：指定新元件的加入位置。 這會使用索引鍵值配對或索引來進行唯一識別。 檢視狀態包括：
 
-   * **附加**：在結尾新增。
+1. `target`：指定新元件的加入位置。 這會使用索引鍵值配對或索引來進行唯一識別。 檢視狀態包括：
 
-   * **前置詞**：在開頭新增。
+   - **附加**：在結尾新增。
 
-   * **取代**：取代現有元件。
+   - **前置詞**：在開頭新增。
+
+   - **取代**：取代現有元件。
 
 JSON結構範例：
 
@@ -87,6 +101,140 @@ JSON結構範例：
 ```
 
 <br>
+
+## 瞭解`targetEditor`屬性
+
+以下是每個屬性、其用途和支援值的劃分。
+
+### `mode`
+
+定義編輯器的操作模式。
+
+**支援的值**： `author`、`source`、`preview`、`layout` （先前為`toc`）、`split`
+
+### `displayMode` *（選擇性）*
+
+控制UI元件的可見性或互動性。 若未指定，預設值會設為`show`。
+
+**支援的值**： `show`、`hide`、`enabled`、`disabled`
+
+範例：
+
+```
+ {
+        "icon": "textBulleted",
+        "title": "Custom Insert Bulleted",
+        "on-click": "$$AUTHOR_INSERT_REMOVE_BULLETED_LIST",
+        "key": "$$AUTHOR_INSERT_REMOVE_BULLETED_LIST",
+        "targetEditor": {
+          "documentType": [
+            "ditamap"
+          ],
+          "mode": [
+            "author"
+          ],
+          "displayMode": "hide"
+        }
+      },
+```
+
+### `editor`
+
+在編輯器中指定主要檔案型別。
+
+**支援的值**： `ditamap`、`bookmap`、`subjectScheme`、`xml`、`css`、`translation`、`preset`、`pdf_preset`
+
+### `documentType`
+
+指示主要檔案型別。
+
+**支援的值**： `dita`、`ditamap`、`bookmap`、`subjectScheme`、`css`、`preset`、`ditaval`、`reports`、`baseline`、`translation`、`html`、`markdown`、`conditionPresets`
+
+> 特定使用案例可能支援其他值。
+
+範例：
+
+```
+ {
+        "icon": "textNumbered",
+        "title": "Custom Numbered List",
+        "on-click": "$$AUTHOR_INSERT_REMOVE_NUMBERED_LIST",
+        "key": "$$AUTHOR_INSERT_REMOVE_NUMBERED_LIST",
+        "targetEditor": {
+          "documentType": [
+            "dita",
+            "ditamap"
+          ],
+          "mode": [
+            "author",
+            "source"
+          ]
+
+        }
+      },
+```
+
+### `documentSubType`
+
+根據`documentType`進一步分類檔案。
+
+- `preset`**的**： `pdf`，`html5`，`aemsite`，`nativePDF`，`json`，`custom`，`kb`
+- `dita`**的**： `topic`，`reference`，`concept`，`glossary`，`task`，`troubleshooting`
+
+> 特定使用案例可能支援其他值。
+
+範例：
+
+```
+ {
+        "icon": "rename",
+        "title": "Custom Rename",
+        "on-click": "$$PUBLISH_PRESETS_RENAME",
+        "label": "Custom Rename",
+        "key": "$$PUBLISH_PRESETS_RENAME",
+        "targetEditor": {
+          "documentType": [
+            "preset"
+          ],
+          "documentSubType": [
+            "nativePDF",
+            "aemsite",
+            "json"
+          ]
+
+        }
+      },
+```
+
+### `flag`
+
+檔案狀態或功能的布林值指標。
+
+**支援的值**： `isOutputGenerated`、`isTemporaryFileDownloadable`、`isPDFDownloadable`、`isLocked`、`isUnlocked`、`isDocumentOpen`
+
+此外，您也可以在`extensionMap`內建立自訂旗標，作為`targetEditor`中的旗標。 `extensionMap`是用來新增自訂金鑰或可觀察值的全域變數。
+
+範例：
+
+```
+ {
+        "icon": "filePDF",
+        "title": "Custom Export pdf",
+        "on-click": "$$DOWNLOAD_TOPIC_PDF",
+        "key": "$$DOWNLOAD_TOPIC_PDF",
+        "targetEditor": {
+          "documentType": [
+            "markdown"
+          ],
+          "mode": [
+            "preview"
+          ],
+          "flag": ["isPDFDownloadable"]
+
+        }
+      },
+```
+
 
 ## 範例
 
@@ -188,6 +336,75 @@ JSON結構範例：
 ![Youtube按鈕](images/reuse/youtube-button.png)
 
 <br>
+
+### 在預覽模式中新增按鈕
+
+根據設計，會針對鎖定和未鎖定（唯讀）模式分別管理按鈕的可見度，以維持清楚且受控制的使用者體驗。 依預設，當介面處於唯讀模式時，任何新新增的按鈕都會隱藏。
+若要讓按鈕以**唯讀**模式顯示，您必須指定目標，將按鈕置於即使介面已鎖定，仍可存取的工具列子區段中。
+例如，將目標指定為**下載為PDF**，即可確保此按鈕會顯示在現有可見按鈕的相同區段中，因此可讓您以解除鎖定模式存取。
+
+```json
+"target": {
+  "key": "label",
+  "value": "Download as PDF",
+  "viewState": "prepend"
+}
+```
+
+新增按鈕&#x200B;**匯出為PDF** （在&#x200B;**預覽**&#x200B;模式中），此模式會以鎖定和解鎖模式顯示。
+
+```json
+{
+  "id": "editor_toolbar",
+  "view": {
+    "items": [
+      {
+        "icon": "filePDF",
+        "title": "Export as PDF",
+        "on-click": "$$DOWNLOAD_TOPIC_PDF",
+        "key": "$$DOWNLOAD_TOPIC_PDF",
+        "targetEditor": {
+          "editor": [
+            "ditamap",
+            "xml"
+          ],
+          "mode": [
+            "preview"
+          ]
+        },
+        "target": {
+          "key": "label",
+          "value": "Download as PDF",
+          "viewState": "prepend"
+        }
+      },
+      {
+        "icon": "filePDF",
+        "title": "Export as PDF",
+        "on-click": "$$DOWNLOAD_TOPIC_PDF",
+        "key": "$$DOWNLOAD_TOPIC_PDF",
+        "targetEditor": {
+          "editor": [
+            "ditamap",
+            "xml"
+          ],
+          "mode": [
+            "preview"
+          ]
+        }
+      }
+    ]
+  }
+}
+```
+
+下列程式碼片段顯示具有鎖定案例的&#x200B;**匯出為PDF**&#x200B;按鈕。
+
+![匯出為PDF](images/reuse/lock.png)
+
+此外，底下的程式碼片段中也可以看到具有解除鎖定案例的&#x200B;**匯出為PDF**&#x200B;按鈕。
+
+![匯出為PDF](images/reuse/unlock.png)
 
 ## 如何上傳自訂JSON
 
