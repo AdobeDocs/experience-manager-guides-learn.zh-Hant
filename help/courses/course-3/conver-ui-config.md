@@ -2,9 +2,9 @@
 title: AEM Guides編輯器設定
 description: 針對新的AEM Guides編輯器自訂JSON設定和轉換UI設定。
 exl-id: bb047962-0e2e-4b3a-90c1-052a2a449628
-source-git-commit: efdb02d955e223783fc1904eda8d41942c1c9ccf
+source-git-commit: 1ed48d543161be88becad9c0cd58014323aeda47
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -178,8 +178,8 @@ JSON結構範例：
 
 根據`documentType`進一步分類檔案。
 
-- `preset`**的**： `pdf`，`html5`，`aemsite`，`nativePDF`，`json`，`custom`，`kb`
-- `dita`**的**： `topic`，`reference`，`concept`，`glossary`，`task`，`troubleshooting`
+- **的`preset`**： `pdf`，`html5`，`aemsite`，`nativePDF`，`json`，`custom`，`kb`
+- **的`dita`**： `topic`，`reference`，`concept`，`glossary`，`task`，`troubleshooting`
 
 > 特定使用案例可能支援其他值。
 
@@ -340,8 +340,8 @@ JSON結構範例：
 ### 在預覽模式中新增按鈕
 
 根據設計，會針對鎖定和未鎖定（唯讀）模式分別管理按鈕的可見度，以維持清楚且受控制的使用者體驗。 依預設，當介面處於唯讀模式時，任何新新增的按鈕都會隱藏。
-若要讓按鈕以&#x200B;**唯讀**&#x200B;模式顯示，您必須指定目標，將按鈕置於即使介面已鎖定，仍可存取的工具列子區段中。
-例如，將目標指定為&#x200B;**下載為PDF**，即可確保此按鈕會顯示在現有可見按鈕的相同區段中，因此可讓您以解除鎖定模式存取。
+若要讓按鈕以**唯讀**模式顯示，您必須指定目標，將按鈕置於即使介面已鎖定，仍可存取的工具列子區段中。
+例如，將目標指定為**下載為PDF**，即可確保此按鈕會顯示在現有可見按鈕的相同區段中，因此可讓您以解除鎖定模式存取。
 
 ```json
 "target": {
@@ -405,6 +405,94 @@ JSON結構範例：
 此外，底下的程式碼片段中也可以看到具有解除鎖定案例的&#x200B;**匯出為PDF**&#x200B;按鈕。
 
 ![匯出為PDF](images/reuse/unlock.png)
+
+### 自訂出現在編輯器工具列的「選單」下拉式清單中的選項
+
+您可以使用以下範例在「功能表」下拉式清單中附加、隱藏、取代和新增自訂選項。
+
+#### 附加
+
+在功能表下拉式清單中附加選項。 在此處，我們在功能表選項中附加&#x200B;**自訂功能表按鈕**
+
+```json
+{
+        "icon": "specialCharacter",
+        "title": "Custom menu button",
+        "on-click": "$$AUTHOR_INSERT_SYMBOL",
+        "targetEditor": {
+          "editor": [
+            "ditamap"
+          ],
+          "mode": [
+            "author"
+          ]
+        },
+        "target": {
+          "key": "label",
+          "value": "Version label",
+          "viewState": "append"
+        }
+      }
+```
+
+#### 取代
+
+取代出現在功能表下拉式清單中的選項。 我們將以&#x200B;**自訂功能表按鈕3**&#x200B;取代&#x200B;**建立稽核任務**。
+
+```json
+{
+        "icon": "specialCharacter",
+        "title": "Custom menu button 3",
+        "on-click": "$$AUTHOR_INSERT_SYMBOL",
+        "target": {
+          "key": "label",
+          "value": "Create review task",
+          "viewState": "replace"
+        }
+
+      }
+```
+
+#### 隱藏
+
+隱藏出現在功能表下拉式清單中的選項。 我們在此隱藏功能表中的&#x200B;**尋找及取代**&#x200B;選項。
+
+```json
+{
+        "hide": true,
+        "target": {
+          "key": "label",
+          "value": "Find and replace",
+          "viewState": "replace"
+        }
+      }
+```
+
+#### 在子功能表中新增自訂選項
+
+在功能表下拉式清單的子功能表中新增選項。
+
+```json
+{
+        "icon": "viewAllTags",
+        "title": "Toggle Tags View Goziamasu",
+        "key": "AUTHOR_TOGGLE_TAG_VIEW",
+        "target": {
+          "key": "label",
+          "value": "Track changes",
+          "viewState": "replace"
+        },
+        "targetEditor": {
+          "documentType": [
+            "dita"
+          ],
+          "mode": [
+            "author"
+          ]
+        }
+
+      }
+```
 
 ## 如何上傳自訂JSON
 
