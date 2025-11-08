@@ -9,6 +9,6 @@ ht-degree: 0%
 
 「教學課程」區段中的檔案現在位於`experience-manager-guides.en`存放庫中：
 
-<https://git.corp.adobe.com/AdobeDocs/experience-manager-guides.en>
+<https://git.corp.adobe.com/AdobeDocs/experience-manager-guides.zh-Hant>
 
 此 — 學習存放庫應僅包含視訊內容。 所有產品檔案現在都在其他存放庫中。
