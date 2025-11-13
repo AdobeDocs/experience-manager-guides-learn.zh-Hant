@@ -2,7 +2,7 @@
 title: 在 [!DNL AEM Guides]中建立地圖
 description: 瞭解如何在 [!DNL Adobe Experience Manager Guides]中建立地圖
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 9e3650f4711ca49b923baf445c36d5b460daf70b
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
@@ -10,6 +10,8 @@ ht-degree: 1%
 ---
 
 # 建立地圖
+
+{{test}}
 
 地圖是一種組織工具，可讓您以階層結構新增及組織資訊。 此工作會示範如何建立地圖及組織地圖中的內容。
 
@@ -22,9 +24,9 @@ ht-degree: 1%
 
 ## 上傳地圖元件
 
-如有需要，您可以將本機範例檔案上傳到AEM，以獲得更完整的材料集。
+如有需要，您可以將本機範例檔案上傳到AEM，以取得更完整的資料集。
 
-1. 將任何本機檔案拖放到AEM中以上傳它們。
+1. 將任何本機檔案拖放至AEM進行上傳。
 1. 視需要重複處理任何檔案，包括影像和主題。
 
 ## 建立地圖
