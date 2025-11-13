@@ -2,7 +2,7 @@
 title: 在 [!DNL AEM Guides]中建立地圖
 description: 瞭解如何在 [!DNL Adobe Experience Manager Guides]中建立地圖
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
-source-git-commit: 9e3650f4711ca49b923baf445c36d5b460daf70b
+source-git-commit: 66d6cfd4a73459f70dd33e86bd41c8b311fe7f8a
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
@@ -10,8 +10,6 @@ ht-degree: 1%
 ---
 
 # 建立地圖
-
-{{test}}
 
 地圖是一種組織工具，可讓您以階層結構新增及組織資訊。 此工作會示範如何建立地圖及組織地圖中的內容。
 
