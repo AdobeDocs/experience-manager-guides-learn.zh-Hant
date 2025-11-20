@@ -20,4 +20,4 @@ ht-degree: 0%
 - [使用專案符號和編號清單](working-with-lists.md)
 - [將您的內容版本化](versioning-content.md)
 - [建立並組織地圖](creating-a-map.md)
-- [將地圖Publish為AEM網站和PDF](publishing-default-output.md)
+- [將地圖發佈為AEM網站和PDF](publishing-default-output.md)

@@ -16,7 +16,7 @@ ht-degree: 0%
 - [瞭解地圖儀表板](./introduction-to-the-map-dashboard.md)
 - [使用報表](./working-with-reports.md)
 - [使用基準線建立與發佈](./creating-and-publishing-with-baselines.md)
-- [具有條件的Publish](./publishing-with-conditions.md)
+- [以條件發佈](./publishing-with-conditions.md)
 - [瞭解輸出預設集](./output-presets.md)
 - [疑難排解發佈錯誤](./troubleshooting-publishing-errors.md)
 - [大量發佈](./bulk-publishing.md)
