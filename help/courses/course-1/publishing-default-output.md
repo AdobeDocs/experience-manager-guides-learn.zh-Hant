@@ -2,9 +2,19 @@
 title: 在AEM Guides中發佈預設輸出
 description: 正在發佈 [!DNL Adobe Experience Manager Guides]中的預設輸出
 exl-id: 97a259dd-4266-4a7b-8677-3fa261714687
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/PRvaVZEWIBJPu4Aopj6kkDoDABWgFw-npcA0vSwrGfs
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+subfeature_v2:
+  - id: fd6cc9e1-e5e5-494e-b7b1-a32f2d6cd7c9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: 228
 ht-degree: 0%
 
 ---
@@ -25,7 +35,7 @@ ht-degree: 0%
 
    「對映圖示板」會在另一個標籤中開啟。
 
-1. 在「輸出預設集」標籤中，選取「AEM網站和PDF」。
+1. 在「輸出預設集」索引標籤中，選取「AEM網站」和「PDF」。
 
    ![輸出預設集](images/lesson-9/pdf-aem.png)
 

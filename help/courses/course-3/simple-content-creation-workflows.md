@@ -2,9 +2,15 @@
 title: 簡單的內容建立工作流程
 description: 在AEM Guides中建立內容
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/fLMRJWYDwHU-0ZbbUQ2kFZ1ZUM4vIwHccPV3q-pkn0I
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: 720
 ht-degree: 1%
 
 ---
@@ -85,7 +91,7 @@ AEM Guides編輯器提供多個捷徑，可簡化內容建立工作流程。 這
 
 1. 視需要填入&#x200B;**轉換名稱**&#x200B;或&#x200B;**DITA-OT命令列引數**&#x200B;的資訊。 請注意，如果所有欄位都保留空白，仍會產生PDF。
 
-1. 按一下&#x200B;[!UICONTROL **下載**]。 會產生PDF。
+1. 按一下「[!UICONTROL **下載**]」。 PDF產生。
 
 1. 使用可用的圖示來設定、下載或共用PDF主題。
 
@@ -113,7 +119,7 @@ AEM Guides編輯器提供多個捷徑，可簡化內容建立工作流程。 這
 
    ![新版本對話方塊](images/lesson-15/version-dialog.png)
 
-1. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下&#x200B;[!UICONTROL **儲存**]。
 
 版本號碼會更新。
 
@@ -125,9 +131,9 @@ AEM Guides編輯器提供多個捷徑，可簡化內容建立工作流程。 這
 
 1. 在資料夾設定檔中，設定XML編輯器。
 
-   a.選取畫面左上方的編輯。
+   答： 選取畫面左上方的「編輯」 。
 
-   b.在「XML內容版本標籤」下，新增主題或使用現有主題。
+   b. 在「XML內容版本標籤」下，新增主題或使用現有主題。
 
    ![內容版本標籤](images/lesson-15/version-labels.png)
 
@@ -157,7 +163,7 @@ AEM Guides編輯器提供多個捷徑，可簡化內容建立工作流程。 這
 
    ![使用者喜好設定](images/lesson-15/user-preferences.png)
 
-1. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下&#x200B;[!UICONTROL **儲存**]。
 
 1. 版本主題。
 
@@ -165,7 +171,7 @@ AEM Guides編輯器提供多個捷徑，可簡化內容建立工作流程。 這
 
    ![新版本標籤對話方塊](images/lesson-15/labels-dialog.png)
 
-1. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下&#x200B;[!UICONTROL **儲存**]。
 
 版本號碼會更新。
 

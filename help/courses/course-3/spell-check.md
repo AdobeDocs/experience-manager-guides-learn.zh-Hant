@@ -2,9 +2,15 @@
 title: 拼字檢查並尋找/取代
 description: 在AEM Guides中使用拼字檢查和尋找/取代
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/cSdhulSc30KrwsGh1ldB2yn-8eSLccHBpyD-0S1x1M0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: 443
 ht-degree: 1%
 
 ---
@@ -39,21 +45,21 @@ AEM Guides編輯器擁有強大的拼字檢查和尋找及取代功能。
 
    - **瀏覽器拼字檢查** — 使用瀏覽器內建字典進行拼字檢查的預設設定。
 
-   - **AEM拼字檢查** — 使用此項來使用AEM的自訂字典建置自訂字詞清單。
+   - **AEM拼字檢查** — 使用此功能來使用AEM的自訂字典建立自訂字詞清單。
 
 1. 選擇&#x200B;**AEM拼字檢查**。
 
-1. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下&#x200B;[!UICONTROL **儲存**]。
 
 設定自訂字典
 
-管理員可以變更設定，讓AEM字典可以辨識自訂單字，例如公司名稱。
+管理員可以變更設定，讓AEM字典可辨識自訂單字，例如公司名稱。
 
 1. 導覽至&#x200B;**工具**&#x200B;窗格。
 
 1. 登入&#x200B;**CRXDE Lite**。
 
-   ![AEM UICRXDE Lite圖示](images/lesson-11/crxde-lite.png)
+   ![AEM UI CRXDE Lite圖示](images/lesson-11/crxde-lite.png)
 
 1. 瀏覽至&#x200B;**_/apps/fmdita/config節點_**。
 
@@ -61,17 +67,17 @@ AEM Guides編輯器擁有強大的拼字檢查和尋找及取代功能。
 
 1. 建立新檔案。
 
-   a.以滑鼠右鍵按一下設定資料夾。
+   答： 以滑鼠右鍵按一下設定資料夾。
 
-   b.選擇&#x200B;**建立>建立檔案**。
+   b. 選擇&#x200B;**建立>建立檔案**。
 
    ![新字典檔案建立](images/lesson-11/new-dictionary-file.png)
 
-   c.將檔案命名為&#x200B;_&#x200B;**user_dictionary.txt**&#x200B;_。
+   c. 將檔案命名為&#x200B;_&#x200B;**user_dictionary.txt**&#x200B;_。
 
    ![使用者字典文字](images/lesson-11/user-dictionary.png)
 
-   d.按一下&#x200B;[!UICONTROL **確定**]。
+   d. 按一下&#x200B;[!UICONTROL **「確定」**]。
 
 1. 開啟檔案。
 
