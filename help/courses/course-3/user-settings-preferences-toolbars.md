@@ -3,10 +3,16 @@ title: 使用者偏好設定、編輯器設定和編輯器工具列
 description: 在AEM Guides中變更使用者偏好設定和編輯器設定
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
 TQID: https://experienceleague.adobe.com/OA2xVO7uyM-70UZKo4oq37HvbpXkTWKmCmQjGkppF7o
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086
-subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ab01a588-7dea-43f2-a699-0b3f128465d6
+  - id: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2:
+  - id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
 source-wordcount: 1171
@@ -148,7 +154,7 @@ ht-degree: 1%
 
    ![編輯器設定](images/lesson-2/editor-settings-icon.png)
 
-1. 在[編輯器設定]對話方塊中，按一下[一般] **]索引標籤。[!UICONTROL **
+1. 在[編輯器設定]對話方塊中，按一下[一般] **索引標籤。**
 
 1. 選取您要使用的字典。
 
