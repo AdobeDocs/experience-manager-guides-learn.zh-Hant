@@ -2,9 +2,13 @@
 title: 交叉引用和連結
 description: 在AEM Guides中建立互動參照和連結
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/K55H51fnM7bsR68-HQWbNHrSxHgQBPkM-jnGG-OFIbw
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: 362
 ht-degree: 0%
 
 ---
@@ -26,13 +30,13 @@ XML編輯器和DITA提供在主題之間連結的強大方式。 請務必有效
 
 1. 將ID指派給要參考的元素。
 
-   a.按一下元素內部。
+   答： 在元素內按一下。
 
-   b.在「內容屬性」面板上，從「屬性」下拉式清單中選擇&#x200B;**ID**。
+   b. 在「內容屬性」面板上，從「屬性」下拉式清單中選擇&#x200B;**ID**。
 
-   c.在「值」欄位中輸入邏輯名稱。
+   c. 在「值」欄位中輸入邏輯名稱。
 
-   d.視需要在&#x200B;**大綱檢視**&#x200B;中檢視元素及其值。
+   d. 視需要在&#x200B;**大綱檢視**&#x200B;中檢視元素及其值。
 
 1. **儲存**&#x200B;主題，以確儲存放庫具有更新的識別碼。
 
@@ -42,7 +46,7 @@ XML編輯器和DITA提供在主題之間連結的強大方式。 請務必有效
 
 1. 從&#x200B;**內容參照**&#x200B;索引標籤中，選取要插入做為互動參照的ID和元素配對。
 
-1. 按一下&#x200B;[!UICONTROL **選取**]。
+1. 按一下「[!UICONTROL **選取**]」。
 
 交叉引用已新增至主題。
 

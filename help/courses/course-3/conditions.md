@@ -2,10 +2,13 @@
 title: 條件
 description: 使用AEM Guid中的條件
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/RmYnleEQKJitdoHoBKuBDRR1LdFcqmMm4lEDqF3E-vY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 1%
+source-wordcount: 498
+ht-degree: 3%
 
 ---
 
@@ -25,7 +28,7 @@ ht-degree: 1%
 
 1. 按一下設定檔左上角的&#x200B;[!UICONTROL **編輯**]。
 
-1. 按一下&#x200B;[!UICONTROL **新增**]。
+1. 按一下&#x200B;[!UICONTROL **「新增」**]。
 
    資料夾設定檔中的![條件](images/lesson-13/add-name.png)
 
@@ -37,11 +40,11 @@ ht-degree: 1%
 
    - 「標籤」是輸入屬性的使用者將會看到的單字。
 
-1. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下&#x200B;[!UICONTROL **儲存**]。
 
 >[!NOTE]
 >
->注意：設定全域設定檔可能是控制使用屬性和值來遵循一致樣式指南的早期且有效率的方式。
+注意：設定全域設定檔可能是控制使用屬性和值來遵循一致樣式指南的早期且有效率的方式。
 
 ## 將屬性指派給元素
 
@@ -63,15 +66,15 @@ ht-degree: 1%
 
 1. 修改&#x200B;**使用者偏好設定**。
 
-   a.按一下「使用者偏好設定」圖示。
+   答： 按一下「使用者偏好設定」圖示。
 
    ![使用者偏好設定圖示](images/lesson-13/user-prefs-icon.png)
 
-   b.完成&#x200B;**使用者偏好設定**&#x200B;對話方塊中的必要欄位。 例如：
+   b. 完成&#x200B;**使用者偏好設定**&#x200B;對話方塊中的必要欄位。 例如：
 
    ![使用者喜好設定](images/lesson-13/user-preferences.png)
 
-   c.按一下&#x200B;[!UICONTROL **儲存**]。
+   c. 按一下「[!UICONTROL **儲存**]」。
 
 1. 從「條件」面板，展開「對象」和「平台」的下拉式清單。 請注意，可用的條件是「資料夾設定檔」特定的。
 
@@ -89,29 +92,29 @@ ht-degree: 1%
 
 1. 設定使用者偏好設定。
 
-   a.按一下&#x200B;[!UICONTROL **使用者偏好設定**]&#x200B;圖示。
+   答： 按一下&#x200B;[!UICONTROL **使用者偏好設定**]&#x200B;圖示。
 
    ![使用者喜好設定](images/lesson-13/user-prefs-icon-2.png)
 
-   b.在&#x200B;**使用者偏好設定**&#x200B;對話方塊中填入欄位。
+   b. 填入&#x200B;**使用者偏好設定**&#x200B;對話方塊中的欄位。
 
-   c.按一下「基本路徑」欄位旁的資料夾符號，選擇所需檔案的路徑。
+   c. 按一下「基本路徑」欄位旁的資料夾符號，以選擇所需檔案的路徑。
 
-   d.按一下&#x200B;[!UICONTROL **選取**]。
+   d. 按一下「[!UICONTROL **選取**]」。
 
-   e.按一下&#x200B;**根對應**&#x200B;欄位旁的索引鍵符號，以輸入路徑。
+   e. 按一下&#x200B;**根對應**&#x200B;欄位旁的索引鍵符號，以輸入路徑。
 
    >[!IMPORTANT]
    >
-   >重要：選取的根對映必須是包含主旨配置的對映。
+   重要：選取的根對映必須是包含主旨配置的對映。
 
    ![使用者喜好設定](images/lesson-13/user-preferences-2.png)
 
-   f.選取您要使用的資料夾，以限制顯示的資產。
+   f. 選取您要使用的資料夾，限制顯示的資產。
 
-   g.按一下&#x200B;[!UICONTROL **選取**]。
+   g. 按一下「[!UICONTROL **選取**]」。
 
-   h.按一下&#x200B;[!UICONTROL **儲存**]。
+   h. 按一下&#x200B;[!UICONTROL **儲存**]。
 
 主旨配置現已指派。
 

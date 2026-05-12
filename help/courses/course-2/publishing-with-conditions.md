@@ -2,10 +2,14 @@
 title: 使用條件發佈
 description: 使用Adobe Experience Manager Guides條件發佈
 exl-id: ea94824a-884b-447f-9562-e6c629b8133b
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/Ez-rAJNfPH-Dd2lTd65B1bct4lkhoB2Gi6IKc8-A8gI
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 2%
+source-wordcount: 371
+ht-degree: 3%
 
 ---
 
@@ -57,7 +61,7 @@ ht-degree: 2%
 
 1. 從地圖儀表板選取&#x200B;**條件預設集**&#x200B;索引標籤。
 
-1. 按一下&#x200B;**建立**。
+1. 按一下「**建立**」。
 
 1. 選取&#x200B;**新增** （或&#x200B;**全部新增**）。
 
@@ -69,7 +73,7 @@ ht-degree: 2%
 
 1. 視需要重複。
 
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**儲存**。
 
 ## 正在產生條件式輸出
 
@@ -81,13 +85,13 @@ ht-degree: 2%
 
 1. 選取輸出預設集。
 
-1. 按一下&#x200B;**編輯**。
+1. 按一下「**編輯**」。
 
 1. 在&#x200B;**使用**&#x200B;套用條件下，選取條件預設集。
 
    ![Generate-Conditional-Output](images/generate-conditional-output.png)
 
-1. 按一下&#x200B;**「完成」**。
+1. 按一下&#x200B;**完成**。
 
 1. 產生輸出預設集並檢閱內容。
 
@@ -99,12 +103,12 @@ DITAval檔案可用來發佈條件式內容。 這需要建立或上傳檔案，
 
 1. 選取輸出預設集。
 
-1. 按一下&#x200B;**編輯**。
+1. 按一下「**編輯**」。
 
 1. 在套用條件使用下，選取DITAval檔案。
 
    ![Generate-Using-DITAval](images/generate-using-ditaval.png)
 
-1. 按一下&#x200B;**「完成」**。
+1. 按一下&#x200B;**完成**。
 
 1. 產生輸出預設集並檢閱內容。

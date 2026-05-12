@@ -2,10 +2,14 @@
 title: 索引鍵
 description: 在AEM Guides中使用DITA時，索引鍵可讓您將變數資訊加入至
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/Uw-JiHQLITcmUtAuV-SogA6mM73A6EeCi27gUQC-8Eo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 0%
+source-wordcount: 585
+ht-degree: 1%
 
 ---
 
@@ -21,25 +25,25 @@ ht-degree: 0%
 
 1. 上傳提供的範例檔案集。
 
-   a.載入zip檔案。
+   答： 載入zip檔案。
 
-   b.重新整理AEM環境。
+   b. 重新整理AEM環境。
 
-   c.選取要擷取的檔案。
+   c. 選取要擷取的檔案。
 
    ![選取Zip](images/lesson-9/select-zip.png)
 
-   d.按一下頂端工具列中的&#x200B;[!UICONTROL **擷取封存**]。
+   d. 按一下頂端工具列中的&#x200B;[!UICONTROL **擷取封存**]。
 
    ![工具列](images/lesson-9/extract-archive.png)
 
-   e.在對話方塊中，選擇要擷取檔案的特定位置，例如名為「金鑰」的資料夾。
+   e. 在對話方塊中，選擇要擷取檔案的特定位置，例如稱為「金鑰」的資料夾。
 
-   f.按一下&#x200B;[!UICONTROL **下一步**]。
+   f. 按一下「[!UICONTROL **下一步**]」。
 
-   g.略過任何衝突，因為之前從未上傳過的內容不存在衝突。
+   g. 略過任何衝突，因為之前從未上傳過的內容不存在衝突。
 
-   h.選取畫面右上方的&#x200B;[!UICONTROL **擷取**]。
+   h. 選取熒幕右上方的&#x200B;[!UICONTROL **擷取**]。
 
 1. 擷取完成時，按一下&#x200B;[!UICONTROL **移至目標資料夾**]。
 
@@ -51,21 +55,21 @@ ht-degree: 0%
 
 1. 指定根對應。
 
-   a.在「按鍵」畫面中，開啟地圖。
+   答： 在「按鍵」畫面中，開啟對應。
 
-   b.設定使用者偏好設定。
+   b. 設定使用者偏好設定。
 
-   c.按一下頂端工具列上的&#x200B;[!UICONTROL **使用者偏好設定**]&#x200B;圖示。
+   c. 按一下頂端工具列上的&#x200B;[!UICONTROL **使用者偏好設定**]&#x200B;圖示。
 
    ![頂端工具列](images/lesson-9/author-view.png)
 
-   d.按一下金鑰圖示以指定將用於解析金鑰的&#x200B;**根對應**。
+   d. 按一下金鑰圖示以指定將用於解析金鑰的&#x200B;**根對應**。
 
-   e.選取任何所需Assets的核取方塊。
+   e. 選取任何所需Assets的核取方塊。
 
    ![Assets下拉式清單](images/lesson-9/select-assets.png)
 
-   f.按一下&#x200B;[!UICONTROL **選取**]。
+   f. 按一下「[!UICONTROL **選取**]」。
 
    g. **儲存**&#x200B;使用者偏好設定。
 
@@ -85,39 +89,39 @@ ht-degree: 0%
 
 1. 插入新的索引鍵。
 
-   a.按一下地圖中的有效位置。
+   答： 在地圖中的有效位置按一下。
 
-   b.選取頂端工具列上的&#x200B;**Keydef**&#x200B;圖示。
+   b. 選取頂端工具列上的&#x200B;**Keydef**&#x200B;圖示。
 
    ![索引鍵工具列](images/lesson-9/key-icon.png)
 
-   c.在「插入Keydef」對話方塊中，輸入唯一的「索引鍵」值，以符合您正在建立的定義。
+   c. 在「插入Keydef」對話方塊中，針對您正在建立的定義輸入唯一的Keys值。
 
-   d.按一下&#x200B;[!UICONTROL **插入**]。
+   d. 按一下&#x200B;[!UICONTROL **插入**]。
 
 1. 在keydef中新增topicmeta。
 
-   a.按一下頂端工具列上的&#x200B;[!UICONTROL **插入元素**]&#x200B;圖示。
+   答： 按一下頂端工具列上的&#x200B;[!UICONTROL **插入元素**]&#x200B;圖示。
 
    ![索引鍵工具列](images/lesson-9/add-icon.png)
 
-   b.在插入元素對話方塊中，搜尋並選取「topicmeta」。
+   b. 在「插入元素」對話方塊中，搜尋並選取「topicmeta」。
 
 1. 在topicmeta中新增關鍵字。
 
-   a.按一下頂端工具列上的&#x200B;[!UICONTROL **插入元素**]&#x200B;圖示。
+   答： 按一下頂端工具列上的&#x200B;[!UICONTROL **插入元素**]&#x200B;圖示。
 
    ![索引鍵工具列](images/lesson-9/add-icon.png)
 
-   b.在插入元素對話方塊中，搜尋並選取「關鍵字」。
+   b. 在「插入元素」對話方塊中，搜尋並選取「關鍵字」。
 
 1. 在topicmeta中新增關鍵字。
 
-   a.按一下頂端工具列上的&#x200B;[!UICONTROL **插入元素**]&#x200B;圖示。
+   答： 按一下頂端工具列上的&#x200B;[!UICONTROL **插入元素**]&#x200B;圖示。
 
    ![索引鍵工具列](images/lesson-9/add-icon.png)
 
-   b.在&#x200B;**插入元素**&#x200B;對話方塊中，搜尋並選取「關鍵字」
+   b. 在&#x200B;**插入元素**&#x200B;對話方塊中，搜尋並選取「關鍵字」
 
 1. 在關鍵字中輸入keydef的值。
 
@@ -136,7 +140,7 @@ ht-degree: 0%
 1. 在新程式碼片段對話方塊中，新增標題和說明。
 您也可以從內容中移除現有的金鑰或關鍵字定義。
 
-1. 按一下&#x200B;[!UICONTROL **建立**]。
+1. 按一下「[!UICONTROL **建立**]」。
 
 1. 在左側面板上，選取&#x200B;**代碼片段**。
 

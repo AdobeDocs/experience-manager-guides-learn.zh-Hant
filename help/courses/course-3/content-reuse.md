@@ -2,10 +2,14 @@
 title: 內容重複使用
 description: AEM Guides中功能的重複使用
 exl-id: 453c5a09-0bcf-4760-87fc-df3ea4a3a30a
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/MJKB2oOi8SQbB6L8059wvMpFkwQ3M9iH2Jpxo3g9R0U
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 1%
+source-wordcount: 357
+ht-degree: 3%
 
 ---
 
@@ -29,7 +33,7 @@ DITA的主要功能之一是重複使用內容的能力。 它可讓您重複使
 
    ![確認](images/lesson-8/new-topic-dialog.png)
 
-1. 按一下&#x200B;[!UICONTROL **建立**]。
+1. 按一下「[!UICONTROL **建立**]」。
 
 1. 視需要新增內容至主題。
 
@@ -54,11 +58,11 @@ DITA的主要功能之一是重複使用內容的能力。 它可讓您重複使
 
    ![確認](images/lesson-8/reusable-topic.png)
 
-1. 按一下&#x200B;[!UICONTROL **選取**]。
+1. 按一下「[!UICONTROL **選取**]」。
 
 1. 選擇要重複使用的特定元件。
 
-1. 按一下&#x200B;[!UICONTROL **選取**]。
+1. 按一下「[!UICONTROL **選取**]」。
 
 可重複使用的元素現在已插入主題中。
 
@@ -74,7 +78,7 @@ DITA的主要功能之一是重複使用內容的能力。 它可讓您重複使
 
 1. 選取特定主題。
 
-1. 按一下&#x200B;[!UICONTROL **新增**]。
+1. 按一下&#x200B;[!UICONTROL **「新增」**]。
 
 1. 從「可重複使用的內容」面板，展開&#x200B;**專案概觀**。
 

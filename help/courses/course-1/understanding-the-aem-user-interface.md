@@ -2,16 +2,19 @@
 title: 瞭解 [!DNL AEM Guides]中的AEM使用者介面
 description: 瞭解 [!DNL Adobe Experience Manager Guides]中的AEM使用者介面
 exl-id: 955a05ed-92d3-480e-9c6b-a0ff362cc464
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/k69iwbiqIEyFjgOMiBC2gMm1QWqxddSTC1xoRQmJmKQ
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: 361
 ht-degree: 2%
 
 ---
 
 # 瞭解AEM使用者介面
 
-瞭解如何在XML編輯器中管理資產、檔案和資料夾以進行Experience Manager。
+瞭解如何在適用於Experience Manager的XML編輯器中管理資產、檔案和資料夾。
 
 >[!VIDEO](https://video.tv.adobe.com/v/336659?quality=12&learn=on)
 

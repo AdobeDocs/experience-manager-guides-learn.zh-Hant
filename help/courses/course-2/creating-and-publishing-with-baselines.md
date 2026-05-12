@@ -2,9 +2,13 @@
 title: 使用基準線建立與發佈
 description: 使用 [!DNL Adobe Experience Manager Guides]中的基準線來建立和發佈
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/P2NbWdOXSWFs40gpSWNrtDLR3VKofXymN5FlZSQRJ7Y
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dcaid: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: 764
 ht-degree: 2%
 
 ---
@@ -97,7 +101,7 @@ ht-degree: 2%
 
 標籤已新增至所有主題。
 
-## 使用基準產生AEM Site輸出
+## 使用基準線產生AEM Site輸出
 
 1. 導覽至「地圖」控制面板中的「輸出預設集」標籤。
 
@@ -183,7 +187,7 @@ ht-degree: 2%
 
 已儲存您的變更。 您的基準線現在將使用您指定的主題版本。
 
-## 建立自訂的AEM Site輸出預設集
+## 建立自訂的AEM網站輸出預設集
 
 在「輸出」標籤中，很難區分相同型別的預設輸出。 使用具有唯一且好記名稱的自訂輸出預設集可讓您解決此問題。
 

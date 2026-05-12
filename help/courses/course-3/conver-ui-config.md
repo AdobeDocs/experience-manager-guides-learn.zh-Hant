@@ -2,9 +2,15 @@
 title: AEM Guides編輯器設定
 description: 針對新的AEM Guides編輯器自訂JSON設定和轉換UI設定。
 exl-id: bb047962-0e2e-4b3a-90c1-052a2a449628
-source-git-commit: 1ed48d543161be88becad9c0cd58014323aeda47
+TQID: https://experienceleague.adobe.com/-OjsNVIiPAMvXO2UhRf0EpJ5BipU4g2b2HYL1KOQwPE
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: 1311
 ht-degree: 0%
 
 ---
@@ -178,8 +184,8 @@ JSON結構範例：
 
 根據`documentType`進一步分類檔案。
 
-- **的`preset`**： `pdf`，`html5`，`aemsite`，`nativePDF`，`json`，`custom`，`kb`
-- **的`dita`**： `topic`，`reference`，`concept`，`glossary`，`task`，`troubleshooting`
+- `preset`**的**： `pdf`，`html5`，`aemsite`，`nativePDF`，`json`，`custom`，`kb`
+- `dita`**的**： `topic`，`reference`，`concept`，`glossary`，`task`，`troubleshooting`
 
 > 特定使用案例可能支援其他值。
 
@@ -340,8 +346,8 @@ JSON結構範例：
 ### 在預覽模式中新增按鈕
 
 根據設計，會針對鎖定和未鎖定（唯讀）模式分別管理按鈕的可見度，以維持清楚且受控制的使用者體驗。 依預設，當介面處於唯讀模式時，任何新新增的按鈕都會隱藏。
-若要讓按鈕以&#x200B;**唯讀**&#x200B;模式顯示，您必須指定目標，將按鈕置於即使介面已鎖定，仍可存取的工具列子區段中。
-例如，將目標指定為&#x200B;**下載為PDF**，即可確保此按鈕會顯示在現有可見按鈕的相同區段中，因此可讓您以解除鎖定模式存取。
+若要讓按鈕以**唯讀**模式顯示，您必須指定目標，將按鈕置於即使介面已鎖定，仍可存取的工具列子區段中。
+例如，將目標指定為**下載為PDF**，即可確保此按鈕會顯示在現有可見按鈕的相同區段中，因此可讓您以解除鎖定模式存取。
 
 ```json
 "target": {

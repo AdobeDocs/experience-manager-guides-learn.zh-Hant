@@ -2,9 +2,12 @@
 title: 追蹤變更
 description: 在AEM Guides中追蹤變更
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/-nJ9arA6FSxlEInr9BOZdI5oDmB-a8t4gbzzGp-HaF0
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 513
 ht-degree: 1%
 
 ---
@@ -29,7 +32,7 @@ ht-degree: 1%
 
    ![全部接受/拒絕](images/lesson-12/accept-reject-all.png)
 
-1. 按一下「[!UICONTROL **儲存**]」。
+1. 按一下&#x200B;[!UICONTROL **儲存**]。
 
    ![儲存圖示](images/lesson-12/save-icon.png)
 
@@ -96,6 +99,6 @@ ht-degree: 1%
 
    - **還原至選取的版本**：此選項會將檔案的目前版本還原至選取的版本。 對於接受或拒絕的內容，它不會給予您任何控制權。
 
-1. 按一下&#x200B;[!UICONTROL **「完成」**]。
+1. 按一下&#x200B;[!UICONTROL **完成**]。
 
 如果您選取&#x200B;**從選取的版本追蹤變更選項**，則從選取的版本進行的所有變更都會顯示在右側面板的[變更]索引標籤中。
