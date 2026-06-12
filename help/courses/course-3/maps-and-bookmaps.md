@@ -12,14 +12,14 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: 468
-ht-degree: 1%
+source-wordcount: 427
+ht-degree: 2%
 
 ---
 
 # 地圖和書圖
 
-Adobe Experience Manager Guides的「地圖編輯器」可讓您建立和編輯地圖檔案。 使用「對映編輯器」，您可以編輯兩種型別的檔案 — DITA map和bookmap。 在我們的目的中，將這些概念視為大致上可互換的概念。
+Adobe Experience Manager Guides的「地圖編輯器」可讓您建立和編輯地圖檔案。使用「對映編輯器」，您可以編輯兩種型別的檔案 — DITA map和bookmap。在我們的目的中，將這些概念視為大致上可互換的概念。
 地圖編輯器有兩種模式 — 「基本地圖編輯器」和「進階地圖編輯器」。
 
 >[!VIDEO](https://video.tv.adobe.com/v/342766?quality=12&learn=on)
