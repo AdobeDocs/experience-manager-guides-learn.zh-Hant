@@ -3,16 +3,12 @@ title: 連結至 [!DNL AEM Guides]中的網站
 description: 連結至 [!DNL Adobe Experience Manager Guides]中的網站
 exl-id: 6b89f52e-ac15-4604-8bac-ab0bb5b5a978
 TQID: https://experienceleague.adobe.com/B-iGk-jg3kY-i-NFfjdAmKzuOYlXXzbMDjX1ui-aP44
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: 317
+source-wordcount: 310
 ht-degree: 0%
 
 ---
@@ -73,7 +69,7 @@ ht-degree: 0%
 
    >[!NOTE]
    > 
-   >如果您的程式設定了預先定義的標籤，您可以從中選取以確保一致的標籤。
+   如果您的程式設定了預先定義的標籤，您可以從中選取以確保一致的標籤。
 
 1. 選取「**儲存**」。
 
